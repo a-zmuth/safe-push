@@ -26,5 +26,5 @@ dependencies = [
 safe-push = "safe_push.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/safe-push"
-"Bug Tracker" = "https://github.com/yourusername/safe-push/issues"
+"Homepage" = "https://github.com/a-zmuth/safe-push.git"
+"Bug Tracker" = "https://github.com/a-zmuth/safe-push/issues"
