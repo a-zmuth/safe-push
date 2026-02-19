@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safe-push"
+version = "0.1.3"
+authors = [
+  { name="Chris Alih (azmoth)", email="chrisalih5@gmail.com" },
+]
+description = "An educational CLI tool to prevent accidental sensitive data exposure."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[project.scripts]
+safe-push = "safe_push.cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/safe-push"
+"Bug Tracker" = "https://github.com/yourusername/safe-push/issues"
