@@ -1,7 +1,7 @@
 from pathlib import Path
 
 TOOL_NAME = "safe-push 🛡️"
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 
 RECIPIENT_WALLET = "GgANeKwJecCMPhna9HvZCtELUCg3c6snJZsqi8vx2JqW" 
 MIN_SOL_THRESHOLD = 0.005  # Approximately $2 at current rates
